@@ -1,0 +1,27 @@
+{
+"capabilities":[
+{
+"deviceName": "adc70d087d77",
+"platformVersion":"6.0.1",
+"maxInstances": 3,
+"platformName":"Android",
+"browserName":"chrome"
+}
+],
+"configuration":{
+"cleanUpCycle":2000,
+"timeout":30000,
+"hub": "http://172.16.0.19/:4444//grid/register/",
+"proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+"url": "http://172.16.0.19:4723/wd/hub",
+"host": "172.16.0.19",
+"port": 4723,
+"maxSession": 6,
+"register": true,
+"registerCycle": 5000,
+"hubPort": 4444,
+"hubHost": "172.16.0.19",
+"remoteHost": "http://172.16.0.19:4723",
+"role": "node"
+}
+}
